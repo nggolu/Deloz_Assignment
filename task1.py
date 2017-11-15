@@ -1,6 +1,6 @@
 import requests, json
 
-token = 'bac0931a61f0f8c1823b5b644811ca205a79b549'	
+token = 'bac0931a61f0f8c1823b5b644811ca205a79b549'	#use your token  from setting
 auth = {'Authorization': 'token '+str(token)}
 url = 'https://api.github.com/search/repositories?q=django&sort=stars'
 
